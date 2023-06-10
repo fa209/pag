@@ -1,0 +1,275 @@
+ /* Estilos gerais */
+ body {
+   font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+   line-height: 1.6;
+   background-color: #1ea8b8;
+ }
+
+ h1,
+ h2,
+ h3 {
+   font-family: 'Montserrat', Arial, sans-serif;
+ }
+
+ p {
+   font-family: 'Open Sans', Arial, sans-serif;
+ }
+
+ .btn {
+   font-family: 'Roboto', Arial, sans-serif;
+ }
+
+ /* Estilos do cabeçalho */
+ header {
+   background-color: #F0FFFF;
+   padding: 20px;
+ }
+
+ nav ul {
+   list-style: none;
+   text-align: center;
+ }
+
+ nav ul li {
+   display: inline-block;
+   margin-right: 20px;
+ }
+
+ nav ul li a {
+   color: #1f1616;
+   text-decoration: none;
+   font-size: 18px;
+   transition: color 0.3s ease;
+ }
+
+ nav ul li a:hover {
+   color: #7FD1B9;
+ }
+
+ /* Estilos da seção de destaque */
+ section#inicio {
+   text-align: center;
+   padding: 80px 20px;
+   color: #fff;
+ }
+
+ section#inicio h1 {
+   font-size: 40px;
+   margin-bottom: 20px;
+ }
+
+ section#inicio p {
+   font-size: 18px;
+   margin-bottom: 20px;
+ }
+
+ section#inicio .btn {
+   background-color: #7FD1B9;
+   color: #fff;
+   text-decoration: none;
+   padding: 10px 20px;
+   border-radius: 5px;
+   font-size: 18px;
+   transition: background-color 0.3s ease;
+ }
+
+ section#inicio .btn:hover {
+   background-color: #5AAEA1;
+ }
+
+ /* Estilos da seção de recursos */
+ section.feature {
+   text-align: center;
+   margin-bottom: 40px;
+ }
+
+ section.feature .feature-content {
+   display: flex;
+   flex-direction: column;
+   align-items: center;
+ }
+
+ section.feature .feature-image {
+   max-width: 70%;
+   height: auto;
+   margin-bottom: 50px;
+ }
+
+ section.feature h3 {
+   font-size: 24px;
+   margin-bottom: 10px;
+ }
+
+ section.feature p {
+   font-size: 16px;
+ }
+
+ /* Estilos da seção de preços */
+ section.pricing-cards {
+   display: flex;
+   justify-content: center;
+   align-items: stretch;
+ }
+
+ section.pricing-cards .pricing-card {
+   flex: 1;
+   background-color: #F1F8F7;
+   padding: 30px;
+   text-align: center;
+   border-radius: 5px;
+   box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+   margin: 20px;
+ }
+
+ section.pricing-cards .pricing-card h3 {
+   font-size: 24px;
+   margin-bottom: 20px;
+ }
+
+ section.pricing-cards .pricing-card .price {
+   font-size: 36px;
+   margin-bottom: 20px;
+ }
+
+ section.pricing-cards .pricing-card ul {
+   list-style: none;
+   margin-bottom: 30px;
+ }
+
+ section.pricing-cards .pricing-card ul li {
+   margin-bottom: 10px;
+ }
+
+ /* Estilos da seção de contato */
+ section#contato {
+   padding: 80px 20px;
+   text-align: center;
+ }
+
+ section#contato h2 {
+   font-size: 24px;
+   margin-bottom: 20px;
+ }
+
+ section#contato .contact-form {
+   display: flex;
+   flex-direction: column;
+   align-items: center;
+ }
+
+ section#contato .contact-form input,
+ section#contato .contact-form textarea {
+   width: 100%;
+   padding: 10px;
+   margin-bottom: 20px;
+   border: none;
+   border-radius: 5px;
+   background-color: #fff;
+   box-shadow: 0 0 3px rgba(0, 0, 0, 0.1);
+ }
+
+ section#contato .contact-form textarea {
+   resize: vertical;
+   min-height: 120px;
+ }
+
+ section#contato .contact-form button {
+   display: block;
+   width: 100%;
+   background-color: #145a5c;
+   color: #fff;
+   text-decoration: none;
+   padding: 10px;
+   border: none;
+   border-radius: 5px;
+   font-size: 18px;
+   transition: background-color 0.3s ease;
+ }
+
+ section#contato .contact-form button:hover {
+   background-color: #0d3e40;
+ }
+
+ /* Estilos do rodapé */
+ footer {
+   background-color: #333;
+   padding: 20px;
+   color: #fff;
+   text-align: center;
+   font-family: 'Lato', Arial, sans-serif;
+ }
+
+ /* Estilos adicionais */
+
+ /* Seção "Sobre" */
+ section#sobre {
+   background-color: #f9f9f9;
+   padding: 80px 20px;
+   text-align: center;
+ }
+
+ section#sobre img {
+   max-width: 50%;
+   height: auto;
+   margin-bottom: 50px;
+ }
+
+ section#sobre h3 {
+   font-size: 24px;
+   margin-bottom: 10px;
+ }
+
+ section#sobre p {
+   font-size: 16px;
+ }
+
+
+ /* Seção "Fundador" */
+ section#fundador {
+   background-color: #f9f9f9;
+   padding: 50px 20px;
+   text-align: center;
+ }
+
+ section#fundador .section-title {
+   font-size: 32px;
+   margin-bottom: 20px;
+   color: #333;
+ }
+
+ section#fundador .founder-info {
+   display: flex;
+   flex-wrap: wrap;
+   justify-content: space-between;
+   margin-top: 40px;
+ }
+
+ section#fundador .founder-card {
+   width: 30%;
+   margin-bottom: 30px;
+   display: flex;
+   flex-direction: column;
+   align-items: center;
+   text-align: center;
+ }
+
+ section#fundador .founder-image {
+   width: 200px;
+   height: 200px;
+   object-fit: cover;
+   border-radius: 50%;
+   margin-bottom: 20px;
+ }
+
+ section#fundador .found section#fundador .founder-name {
+   font-size: 24px;
+   margin-bottom: 10px;
+   color: #333;
+ }
+
+ section#fundador .founder-bio {
+   font-size: 16px;
+   line-height: 1.5;
+   color: #666;
+   margin-bottom: 20px;
+ }
